@@ -152,7 +152,7 @@ def game():
                 print("\nVocê venceu! A palavra era: {}".format(palavra))
                 break
         else:
-            print("Ops. Essa letra não está na palavra!")
+            print("Ops! Essa letra não está na palavra!")
             # Decremento
             chances -= 1
     
